@@ -9,5 +9,11 @@ int main(){
 	cout<<"Masukan Gaji Pokok Anda : Rp. ";
 	cin >>gp;
 	cout <<"Masukan Jam Kerja Anda : ";
-	cin >>jk;	
+	cin >>jk;
+		
+	lembur=jk-40;
+	gt=(lembur*1.5+40)*gp;
+	pajak=gt*0.15;
+	gk=gt-pajak;
+		
 }
